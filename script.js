@@ -113,7 +113,7 @@
     var image = backgroundPicture;
     var referenceMainWrapper = document.getElementById("background");
     referenceMainWrapper.style.backgroundImage = 'url(' + image + ')';
-    referenceMainWrapper.style.backgroundSize = "auto";
+    //referenceMainWrapper.style.backgroundSize = "auto";
   }
 
   function toggleUnits() {
